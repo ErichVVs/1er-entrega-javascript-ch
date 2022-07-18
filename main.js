@@ -11,7 +11,7 @@ while (entrada.toUpperCase() != "ESC") {
 
     if (consumo > maximo_calorias) {
         alert("Superaste el consumo máximo de tu plan alimenticio!");
-        alert("Tus calorías consumidas son de: " + consumo);
+        alert("Tus calorías consumidas son: " + consumo);
         break;
     }
 }
